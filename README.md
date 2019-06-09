@@ -42,17 +42,15 @@ Head over to the releases page on the CLI utility's repository to get your insta
 
 #### Linux
 
-Get started quickly and conviniently with the following one-liner:
+Get started quickly and conviniently with the following one-liner.
 
 ```shell
-$ curl -sSL https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh | bash
+$ curl -sSL https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh | sudo sh
 ```
 
-If you wish to view the source code of the installer script, simply navigate to its source URL:
+If you wish to view the source code of the installer script, simply navigate to its [source URL](https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh):
 
-```
-https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh
-```
+
 
 ### Getting started
 
@@ -66,8 +64,8 @@ Use the following instructions to initialize and run a project in Windows.
 cmd> mkdir myproject
 cmd> cd myproject
 cmd> ion init
-cmd> mkdir Src
-cmd> notepad Src/main.ion
+cmd> mkdir src
+cmd> notepad src/main.ion
 ```
 
 Paste the following source code:
